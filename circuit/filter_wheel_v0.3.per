@@ -1,0 +1,362 @@
+[Version]
+Product,2
+File,19
+{
+"Config" : {
+  "NetImportFormat" : "Protel"
+},
+"Board" : {
+  "Width" : 17,
+  "Height" : 19,
+  "Pattern" : "Donut"
+},
+"CelledOutlines" : [
+  { "Name" : "DIP16", "Locked" : false,
+    "Rows" : [
+    [{"Pin" : "1"},"Free","Free",{"Pin" : "16"}],
+    [{"Pin" : "2"},"Body","Body",{"Pin" : "15"}],
+    [{"Pin" : "3"},"Body","Body",{"Pin" : "14"}],
+    [{"Pin" : "4"},"Body","Body",{"Pin" : "13"}],
+    [{"Pin" : "5"},"Body","Body",{"Pin" : "12"}],
+    [{"Pin" : "6"},"Body","Body",{"Pin" : "11"}],
+    [{"Pin" : "7"},"Body","Body",{"Pin" : "10"}],
+    [{"Pin" : "8"},"Body","Body",{"Pin" : "9"}]
+    ]
+  },
+  { "Name" : "SIP5", "Locked" : false,
+    "Rows" : [
+    [{"Pin" : "1"}],
+    [{"Pin" : "2"}],
+    [{"Pin" : "3"}],
+    [{"Pin" : "4"}],
+    [{"Pin" : "5"}]
+    ]
+  },
+  { "Name" : "SIP3", "Locked" : false,
+    "Rows" : [
+    [{"Pin" : "1"}],
+    [{"Pin" : "2"}],
+    [{"Pin" : "3"}]
+    ]
+  },
+  { "Name" : "SEED1", "Locked" : false,
+    "Rows" : [
+    ["Body","Body","Body","Body","Body","Body","Body"],
+    [{"Pin" : "1"},"Body","Body","Body","Body","Body",{"Pin" : "14"}],
+    [{"Pin" : "2"},"Body","Body","Body","Body","Body",{"Pin" : "13"}],
+    [{"Pin" : "3"},"Body","Body","Body","Body","Body",{"Pin" : "12"}],
+    [{"Pin" : "4"},"Body","Body","Body","Body","Body",{"Pin" : "11"}],
+    [{"Pin" : "5"},"Body","Body","Body","Body","Body",{"Pin" : "10"}],
+    [{"Pin" : "6"},"Body","Body","Body","Body","Body",{"Pin" : "9"}],
+    [{"Pin" : "7"},"Body","Body","Body","Body","Body",{"Pin" : "8"}],
+    ["Body","Body","Body","Body","Body","Body","Body"]
+    ]
+  },
+  { "Name" : "SIP4", "Locked" : false,
+    "Rows" : [
+    [{"Pin" : "1"}],
+    [{"Pin" : "2"}],
+    [{"Pin" : "3"}],
+    [{"Pin" : "4"}]
+    ]
+  }
+],
+"LeadedOutlines" : [
+  { "Name" : "AX3_1N", "Locked" : false,
+    "BodyLength" : 3, "BodyWidth" : 1,
+    "Pin0Name" : "1", "Pin1Name" : "2", "ShowReference" : false
+  }
+],
+"RadialOutlines" : [
+],
+"CustomOutlines" : [
+  { "Name" : "BOX2_1", "Locked" : false,
+    "Pins" : [
+    { "Name" : "1", "X5" : 12, "Y5" : 7 },
+    { "Name" : "2", "X5" : 12, "Y5" : 17 }
+    ],
+    "Lines" : [
+    { "X5" : 10, "Y5" : 4, "DX5" : 4, "DY5" : 0},
+    { "X5" : 14, "Y5" : 4, "DX5" : 0, "DY5" : 16},
+    { "X5" : 14, "Y5" : 20, "DX5" : -4, "DY5" : 0},
+    { "X5" : 10, "Y5" : 20, "DX5" : 0, "DY5" : -16}
+    ]
+  },
+  { "Name" : "TACT_01", "Locked" : false,
+    "Pins" : [
+    { "Name" : "1", "X5" : 2, "Y5" : 2 },
+    { "Name" : "3", "X5" : 17, "Y5" : 2 },
+    { "Name" : "2", "X5" : 2, "Y5" : 12 },
+    { "Name" : "4", "X5" : 17, "Y5" : 12 }
+    ],
+    "Lines" : [
+    { "X5" : 3, "Y5" : 0, "DX5" : 13, "DY5" : 0},
+    { "X5" : 16, "Y5" : 0, "DX5" : 0, "DY5" : 14},
+    { "X5" : 16, "Y5" : 14, "DX5" : -13, "DY5" : 0},
+    { "X5" : 3, "Y5" : 14, "DX5" : 0, "DY5" : -14},
+    { "X5" : 6, "Y5" : 4, "DX5" : 0, "DY5" : 6},
+    { "X5" : 6, "Y5" : 4, "DX5" : 7, "DY5" : 0},
+    { "X5" : 13, "Y5" : 4, "DX5" : 0, "DY5" : 6},
+    { "X5" : 6, "Y5" : 10, "DX5" : 7, "DY5" : 0}
+    ]
+  }
+],
+"SmdOutlines" : [
+],
+"Components" : [
+  { "Designator" : "C1", "Value" : "100nF", "Outline" : "BOX2_1",
+  "X1000" : 14000, "Y1000" : 1000, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 0, "Y" : -1, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "DISP 1", "Value" : "OLED Display", "Outline" : "SIP4",
+  "X1000" : 13000, "Y1000" : 3000, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "IC1", "Value" : "L293D Motor Driver", "Outline" : "DIP16",
+  "X1000" : 12000, "Y1000" : 9000, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 0, "Y" : -1, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "J1", "Value" : "Stepper Motor Connector", "Outline" : "SIP5",
+  "X1000" : 6000, "Y1000" : 4000, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 0, "Y" : -1, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "MC1", "Value" : "Seeduino XIAO ESP32C3", "Outline" : "SEED1",
+  "X1000" : 9000, "Y1000" : 0, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "R1", "Value" : "20K", "Outline" : "AX3_1N",
+  "X1000" : 10000, "Y1000" : 17000, "EndDeltaX" : -5, "EndDeltaY" : 0,
+  "Text" : { "X" : 0, "Y" : 1, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "R2", "Value" : "20K", "Outline" : "AX3_1N",
+  "X1000" : 1000, "Y1000" : 17000, "EndDeltaX" : 0, "EndDeltaY" : -5,
+  "Text" : { "X" : 0, "Y" : 2, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "R3", "Value" : "20K", "Outline" : "AX3_1N",
+  "X1000" : 10000, "Y1000" : 16000, "EndDeltaX" : -5, "EndDeltaY" : 0,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "SW1", "Value" : "Switch Tactile", "Outline" : "TACT_01",
+  "X1000" : 7000, "Y1000" : 9000, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 0, "Y" : -1, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "SW2", "Value" : "Switch Tactile", "Outline" : "TACT_01",
+  "X1000" : 2000, "Y1000" : 9000, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 0, "Y" : -1, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "U1", "Value" : "A3144", "Outline" : "SIP3",
+  "X1000" : 6000, "Y1000" : 0, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  }
+],
+"Links" : [
+  { "X" : 10, "Y" : 7, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 11, "Y" : 7, "EndDeltaX" : 0, "EndDeltaY" : 3, "Group" : 0 },
+  { "X" : 11, "Y" : 10, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 10, "Y" : 1, "EndDeltaX" : 0, "EndDeltaY" : 6, "Group" : 0 },
+  { "X" : 14, "Y" : 15, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 7, "Y" : 15, "EndDeltaX" : 7, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 9, "Y" : 1, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 2, "Y" : 8, "EndDeltaX" : 0, "EndDeltaY" : 1, "Group" : 0 },
+  { "X" : 2, "Y" : 7, "EndDeltaX" : 0, "EndDeltaY" : 1, "Group" : 0 },
+  { "X" : 2, "Y" : 7, "EndDeltaX" : 10, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 14, "Y" : 14, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 5, "Y" : 6, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 5, "Y" : 6, "EndDeltaX" : 0, "EndDeltaY" : 8, "Group" : 0 },
+  { "X" : 5, "Y" : 14, "EndDeltaX" : 9, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 6, "Y" : 1, "EndDeltaX" : 7, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 10, "Y" : 4, "EndDeltaX" : 0, "EndDeltaY" : 6, "Group" : 0 },
+  { "X" : 10, "Y" : 10, "EndDeltaX" : 4, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 8, "Y" : 3, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 7, "Y" : 3, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 7, "Y" : 3, "EndDeltaX" : 0, "EndDeltaY" : 12, "Group" : 0 },
+  { "X" : 8, "Y" : 15, "EndDeltaX" : 3, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 8, "Y" : 2, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 8, "Y" : 2, "EndDeltaX" : 0, "EndDeltaY" : 13, "Group" : 0 },
+  { "X" : 12, "Y" : 4, "EndDeltaX" : 0, "EndDeltaY" : 3, "Group" : 0 },
+  { "X" : 4, "Y" : 6, "EndDeltaX" : 0, "EndDeltaY" : 10, "Group" : 0 },
+  { "X" : 4, "Y" : 16, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 4, "Y" : 2, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 11, "Y" : 16, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 15, "Y" : 16, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 11, "Y" : 15, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 10, "Y" : 16, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 10, "Y" : 16, "EndDeltaX" : 0, "EndDeltaY" : 1, "Group" : 0 },
+  { "X" : 1, "Y" : 9, "EndDeltaX" : 0, "EndDeltaY" : 3, "Group" : 0 },
+  { "X" : 1, "Y" : 17, "EndDeltaX" : 9, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 4, "Y" : 2, "EndDeltaX" : 0, "EndDeltaY" : 4, "Group" : 0 },
+  { "X" : 1, "Y" : 9, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 6, "Y" : 13, "EndDeltaX" : 5, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 6, "Y" : 7, "EndDeltaX" : 0, "EndDeltaY" : 6, "Group" : 0 },
+  { "X" : 2, "Y" : 11, "EndDeltaX" : 0, "EndDeltaY" : 1, "Group" : 0 },
+  { "X" : 11, "Y" : 11, "EndDeltaX" : 0, "EndDeltaY" : 2, "Group" : 0 },
+  { "X" : 12, "Y" : 4, "EndDeltaX" : 3, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 4, "Y" : 6, "EndDeltaX" : 10, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 11, "Y" : 11, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 2, "Y" : 13, "EndDeltaX" : 8, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 2, "Y" : 12, "EndDeltaX" : 0, "EndDeltaY" : 1, "Group" : 0 },
+  { "X" : 16, "Y" : 9, "EndDeltaX" : 0, "EndDeltaY" : 7, "Group" : 0 },
+  { "X" : 10, "Y" : 11, "EndDeltaX" : 0, "EndDeltaY" : 2, "Group" : 0 },
+  { "X" : 5, "Y" : 2, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 10, "Y" : 3, "EndDeltaX" : 0, "EndDeltaY" : 8, "Group" : 0 },
+  { "X" : 14, "Y" : 12, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 12, "Y" : 16, "EndDeltaX" : 3, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 12, "Y" : 9, "EndDeltaX" : 3, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 15, "Y" : 9, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 16, "Y" : 1, "EndDeltaX" : 0, "EndDeltaY" : 8, "Group" : 0 },
+  { "X" : 14, "Y" : 13, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 13, "Y" : 13, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 13, "Y" : 12, "EndDeltaX" : 0, "EndDeltaY" : 1, "Group" : 0 },
+  { "X" : 14, "Y" : 12, "EndDeltaX" : 0, "EndDeltaY" : 1, "Group" : 0 },
+  { "X" : 12, "Y" : 13, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 12, "Y" : 12, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 14, "Y" : 6, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 15, "Y" : 6, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 16, "Y" : 4, "EndDeltaX" : 0, "EndDeltaY" : 2, "Group" : 0 },
+  { "X" : 15, "Y" : 2, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 15, "Y" : 1, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 14, "Y" : 1, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 6, "Y" : 0, "EndDeltaX" : 8, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 14, "Y" : 0, "EndDeltaX" : 0, "EndDeltaY" : 1, "Group" : 0 },
+  { "X" : 9, "Y" : 4, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 14, "Y" : 10, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 9, "Y" : 6, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 6, "Y" : 11, "EndDeltaX" : 8, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 14, "Y" : 11, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 11, "Y" : 12, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 10, "Y" : 12, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 10, "Y" : 11, "EndDeltaX" : 0, "EndDeltaY" : 1, "Group" : 0 },
+  { "X" : 6, "Y" : 4, "EndDeltaX" : 0, "EndDeltaY" : 7, "Group" : 0 },
+  { "X" : 9, "Y" : 5, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 6, "Y" : 5, "EndDeltaX" : 2, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 8, "Y" : 5, "EndDeltaX" : 0, "EndDeltaY" : 9, "Group" : 0 },
+  { "X" : 11, "Y" : 14, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 8, "Y" : 14, "EndDeltaX" : 3, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 3, "Y" : 9, "EndDeltaX" : 7, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 3, "Y" : 5, "EndDeltaX" : 12, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 3, "Y" : 5, "EndDeltaX" : 0, "EndDeltaY" : 4, "Group" : 0 },
+  { "X" : 3, "Y" : 9, "EndDeltaX" : 0, "EndDeltaY" : 8, "Group" : 0 },
+  { "X" : 3, "Y" : 17, "EndDeltaX" : 2, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 11, "Y" : 3, "EndDeltaX" : 2, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 11, "Y" : 3, "EndDeltaX" : 0, "EndDeltaY" : 2, "Group" : 0 },
+  { "X" : 10, "Y" : 5, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 13, "Y" : 5, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 14, "Y" : 3, "EndDeltaX" : 0, "EndDeltaY" : 2, "Group" : 0 },
+  { "X" : 14, "Y" : 3, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 13, "Y" : 2, "EndDeltaX" : 2, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 13, "Y" : 1, "EndDeltaX" : 0, "EndDeltaY" : 1, "Group" : 0 },
+  { "X" : 10, "Y" : 2, "EndDeltaX" : 3, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 10, "Y" : 2, "EndDeltaX" : 0, "EndDeltaY" : 1, "Group" : 0 },
+  { "X" : 11, "Y" : 4, "EndDeltaX" : 2, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 11, "Y" : 4, "EndDeltaX" : 0, "EndDeltaY" : 2, "Group" : 0 },
+  { "X" : 10, "Y" : 6, "EndDeltaX" : 1, "EndDeltaY" : 0, "Group" : 0 },
+  { "X" : 13, "Y" : 2, "EndDeltaX" : 0, "EndDeltaY" : 4, "Group" : 0 }
+],
+"Breaks" : [
+],
+"Wires" : [
+],
+"Text" : [
+],
+"Nets" : [
+    { "Node" : "N000001", "Components" : [
+    { "Name" : "IC1", "Pins" : ["2"] },
+    { "Name" : "MC1", "Pins" : ["1"] }
+    ] },
+    { "Node" : "N000002", "Components" : [
+    { "Name" : "IC1", "Pins" : ["7"] },
+    { "Name" : "MC1", "Pins" : ["2"] }
+    ] },
+    { "Node" : "N000003", "Components" : [
+    { "Name" : "IC1", "Pins" : ["10"] },
+    { "Name" : "MC1", "Pins" : ["3"] }
+    ] },
+    { "Node" : "N000004", "Components" : [
+    { "Name" : "IC1", "Pins" : ["15"] },
+    { "Name" : "MC1", "Pins" : ["4"] }
+    ] },
+    { "Node" : "N000007", "Components" : [
+    { "Name" : "DISP 1", "Pins" : ["3"] },
+    { "Name" : "MC1", "Pins" : ["12"] }
+    ] },
+    { "Node" : "N000008", "Components" : [
+    { "Name" : "IC1", "Pins" : ["1", "16", "8", "9"] },
+    { "Name" : "MC1", "Pins" : ["14"] },
+    { "Name" : "R1", "Pins" : ["1"] },
+    { "Name" : "R2", "Pins" : ["1"] },
+    { "Name" : "R3", "Pins" : ["1"] },
+    { "Name" : "U1", "Pins" : ["1"] }
+    ] },
+    { "Node" : "N000009", "Components" : [
+    { "Name" : "IC1", "Pins" : ["14"] },
+    { "Name" : "J1", "Pins" : ["1"] }
+    ] },
+    { "Node" : "N000010", "Components" : [
+    { "Name" : "IC1", "Pins" : ["6"] },
+    { "Name" : "J1", "Pins" : ["2"] }
+    ] },
+    { "Node" : "N000011", "Components" : [
+    { "Name" : "IC1", "Pins" : ["11"] },
+    { "Name" : "J1", "Pins" : ["3"] }
+    ] },
+    { "Node" : "N000012", "Components" : [
+    { "Name" : "IC1", "Pins" : ["3"] },
+    { "Name" : "J1", "Pins" : ["4"] }
+    ] },
+    { "Node" : "N000014", "Components" : [
+    { "Name" : "MC1", "Pins" : ["10"] },
+    { "Name" : "R1", "Pins" : ["2"] },
+    { "Name" : "SW1", "Pins" : ["3"] }
+    ] },
+    { "Node" : "N000015", "Components" : [
+    { "Name" : "MC1", "Pins" : ["11"] },
+    { "Name" : "R2", "Pins" : ["2"] },
+    { "Name" : "SW2", "Pins" : ["1"] }
+    ] },
+    { "Node" : "N000021", "Components" : [
+    { "Name" : "C1", "Pins" : ["2"] },
+    { "Name" : "MC1", "Pins" : ["9"] },
+    { "Name" : "R3", "Pins" : ["2"] },
+    { "Name" : "U1", "Pins" : ["3"] }
+    ] },
+    { "Node" : "N000022", "Components" : [
+    { "Name" : "DISP 1", "Pins" : ["1"] },
+    { "Name" : "MC1", "Pins" : ["5"] }
+    ] },
+    { "Node" : "N000023", "Components" : [
+    { "Name" : "DISP 1", "Pins" : ["2"] },
+    { "Name" : "MC1", "Pins" : ["6"] }
+    ] },
+    { "Node" : "TCPOWEREARTH", "Components" : [
+    { "Name" : "C1", "Pins" : ["1"] },
+    { "Name" : "DISP 1", "Pins" : ["4"] },
+    { "Name" : "IC1", "Pins" : ["12", "13", "4", "5"] },
+    { "Name" : "MC1", "Pins" : ["13"] },
+    { "Name" : "SW1", "Pins" : ["4"] },
+    { "Name" : "SW2", "Pins" : ["2"] },
+    { "Name" : "U1", "Pins" : ["2"] }
+    ] }
+],
+"NetColors" : [
+    { "Node" : "" },
+    { "Node" : "" },
+    { "Node" : "" },
+    { "Node" : "" },
+    { "Node" : "" },
+    { "Node" : "" }
+],
+"Notes" : {
+  "Lines" : ""
+}
+}
