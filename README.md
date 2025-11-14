@@ -13,7 +13,7 @@ This project is my interpretation of the following Youtube video
 
 [Convert ZWO MFW (Manual Filter Wheel) to ASCOM-Compliant EFW (Electronic!) for less than £17.00!](https://www.youtube.com/watch?v=zgVBt9CaCy8)
 
-The main exception is that my version has its own Ascom driver, developed from the Visual Studio Ascom Templates extension. The filter wheel firmware (arduino scripts) and Ascom code is in a seperate repository [here](https://github.com/pharrisuk/FoggyFilterDriver)  
+The main exception is that my version has its own Ascom driver, developed from the Visual Studio Ascom Templates extension. The filter wheel firmware (arduino scripts) and Ascom code is in a seperate repository here: [FoggyFilterDriver](https://github.com/pharrisuk/FoggyFilterDriver)  
 
 
 ## Resources
@@ -50,3 +50,7 @@ All 3D design files are in [Foggy-Astro-Filter-Wheel-Automation/3dPrinting/](3dP
 - [Case top stl file](3dPrinting/Driver%20Case%20Top.stl)
 - [Case bottom stl file](3dPrinting/Driver%20Case%20Bottom.stl)
 - [Fusion 360 Export File](3dPrinting/Filter%20Wheel%20Driver%20v56.f3d)
+
+### Software for the Filter Wheel and Ascom Driver
+The filter wheel firmware (arduino scripts) and Ascom code is in a seperate repository here: [FoggyFilterDriver](https://github.com/pharrisuk/FoggyFilterDriver)  
+
