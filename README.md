@@ -45,6 +45,11 @@ All circuit files are in [Foggy-Astro-Filter-Wheel-Automation/circuit/](circuit)
 ### 3D Design Files
 The housing and driver wheel were designed in Fusion 360:
 <img width="1686" height="1280" alt="image" src="https://github.com/user-attachments/assets/e47cbd40-6f7c-4fc4-837f-1622ec3df879" />
+
+I only had very basic skills in Fusion 360 before I undertook this project, so I went through this set of resources on Youtube, which I can't recommend highly enough - it's a great, practical introduction to all the basic concepts you'll need to know and more.
+
+[Learn Autodesk Fusion 360 in 30 Days for Complete Beginners!](https://www.youtube.com/playlist?list=PLrZ2zKOtC_-C4rWfapgngoe9o2-ng8ZBr)
+
 All 3D design files are in [Foggy-Astro-Filter-Wheel-Automation/3dPrinting/](3dPrinting)
 - [Driver wheel stl file](3dPrintingl/Drive%20Wheel.st)
 - [Case top stl file](3dPrinting/Driver%20Case%20Top.stl)
