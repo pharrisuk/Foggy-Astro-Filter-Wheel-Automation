@@ -2,6 +2,8 @@
 
 Resources to convert a manual ZWO filter wheel to an Ascom compliant electronic filter wheel. 
 
+There is an accompanyinf YouTube video [here](https://www.youtube.com/watch?v=yZIKPMaQHSg)
+
 
 ![PXL_20251113_201335928](https://github.com/user-attachments/assets/192215ab-a7af-46ff-aeec-3a6040e5a214)
 
